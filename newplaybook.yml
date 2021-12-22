@@ -9,4 +9,5 @@
     apt: name=tree state=absent
 
   - name: install wget on ubuntu node
-    apt: name=wget state=absent    
+    apt: name=wget state=present  
+
